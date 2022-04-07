@@ -1,11 +1,11 @@
 import React from 'react'
 import "./style.css"
-import Navbar from './components/Navbar.js'
-import Main from './components/Main.js'
+import Navbar from './components/Navbar'
+import Main from './components/Main'
 
 export default function App() {
   return(
-    <div>
+    <div classsName="container">
       <Navbar />
       <Main />
     </div>
