@@ -20,6 +20,7 @@
 */
 import React from 'react'
 import ReactDOM from 'react-dom'
+import "./style.css"
 import Navbar from './components/Navbar.js'
 import Main from './components/Main.js'
 
