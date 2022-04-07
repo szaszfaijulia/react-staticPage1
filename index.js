@@ -1,13 +1,12 @@
 /* Challenge: Project setup
-
 - Create a `components` folder
 - Create the following components in separate files inside
   the components folder.  In each one, just render an `h1` 
   with the name of the component (e.g. return <h1>Navbar goes here</h1>):
     - Navbar
     - Main
-- Create an App component outside the components folder (sibling to
-  the index.js file)
+- Create an App component outside the components folder (sibling to the
+  index.js file)
     - Have App render the Navbar and Main components
 - Import and render the App component inside of index.js using ReactDOM
     - At this point you should have your "Navbar goes here" etc. showing up
@@ -21,6 +20,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import "./style.css"
-import App from './App.js'
+import App from './App'
 
 ReactDOM.render(<App />, document.getElementById('root'))
