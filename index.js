@@ -14,7 +14,7 @@ import ReactDOM from 'react-dom';
 
 const page = (
   <div>
-    <img src="https://cdn.freelogovectors.net/wp-content/uploads/2018/12/react_logo.png" width="40px"></img>
+    <img src="./react_logo.png" width="40px"></img>
     <h1>Fun facts about React</h1>
     <ul>
       <li>Was first released in 2013</li>
