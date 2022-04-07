@@ -1,5 +1,4 @@
-/* Challenge: 
-
+/* Challenge:
 Part 1: Create a page of your own using a custom Page component
 
 It should return an ordered list with the reasons why you're
@@ -15,8 +14,8 @@ function Page() {
     <div>
       <h1>Miért tanulok React-et</h1>
       <ol>
-        <li>Hogy bekerüljek egy szakmai gyakorlati helyre</li>
-        <li>Elterjedt</li>
+        <li>Munka</li>
+        <li>Elterjedt, népszerű</li>
         <li>Érdekes</li>
       </ol>
     </div>
