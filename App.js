@@ -20,7 +20,8 @@
 */
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Navbar from './Navbar.js'
+import Navbar from './components/Navbar.js'
+import Main from './components/Main.js'
 
 function App() {
   return(
