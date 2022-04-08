@@ -3,6 +3,7 @@
 }
 
 body {
+  background-color: #282d35;
   margin: 0;
   font-family: Inter, sans-serif;
 }
@@ -34,4 +35,25 @@ nav {
 nav > img {
   height: 30px;
   margin-right: 7px;
+}
+
+main {
+  padding: 57px 27px;
+  color: #ffffff;
+}
+
+.main--title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main--facts {
+  margin-top: 46px;
+}
+
+.main--facts > li {
+  line-height: 19px;
+  padding-block: 10px;
+  max-width:400px
 }
