@@ -40,6 +40,20 @@ nav > img {
 main {
   padding: 57px 27px;
   color: #ffffff;
+  /*background-image: url(https://raw.githubusercontent.com/szaszfaijulia/react-staticPage1/master/react_logo.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
+  /*background-position-x: right;
+  background-position-y: 75%;*/
+}
+
+main > img {
+  filter: grayscale(100%) contrast(40%) brightness(40%);
+  position: absolute;
+  width: 263px;
+  height: 263px;
+  left: 418px;
+  top: 198px;
 }
 
 .main--title {
@@ -56,4 +70,10 @@ main {
   line-height: 19px;
   padding-block: 10px;
   max-width:400px
+}
+
+.main--facts > li::marker {
+  font-size: 1.4em;
+  color: #61DAFB;
+  ;
 }
